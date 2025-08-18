@@ -2,7 +2,7 @@
 
 After detecting objects in Step 1, the next goal is to make the robot **turn toward the object**. The objective is for the robot to rotate in place so that the object stays centered in its camera view, without any forward or backward movement.
 
-A new ROS2 package called `team_object_follower` was created, containing three main nodes:
+A new ROS2 package called `krabbypatty_object_follower` was created, containing three main nodes:
 
 1. **`color_picking.py`** – Subscribes to the camera feed (`/image_raw/compressed`) and allows selecting an HSV color by clicking on the object in the video. The selected color is published to `/picked_hsv`. OpenCV is used for displaying the feed and picking the color, while ROS2 handles the messaging.
 
