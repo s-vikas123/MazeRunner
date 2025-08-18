@@ -4,7 +4,7 @@ The objective of Step 3 is to make the robot **chase a target object**, maintain
 
 ## ROS 2 Package Structure
 
-A new package called `TeamName_chase_object` was created. It contains four main nodes:
+A new package called `krabbypatty_chase_object` was created. It contains four main nodes:
 
 1. **`pick_color.py`**  
    - Subscribes to the compressed video stream (`/image_raw/compressed`).  
