@@ -1,0 +1,10 @@
+names:
+  0: class_0
+  1: class_1
+  2: class_2
+  3: class_3
+  4: class_4
+  5: class_5
+nc: 6
+train: /home/sai/ros2_ws/src/krabby_patty_maze_nav/krabby_patty_maze_nav/merged_imgs/train
+val: /home/sai/ros2_ws/src/krabby_patty_maze_nav/krabby_patty_maze_nav/merged_imgs/val
