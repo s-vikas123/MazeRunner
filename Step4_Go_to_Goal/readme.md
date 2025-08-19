@@ -15,7 +15,7 @@ A new package called `TeamName_navigate_to_goal` was created. It contains severa
 2. **`go_to_goal.py`**  
    - Subscribes to the robot’s odometry (`/transferred_odom`) and the obstacle information from `get_object_range.py`.  
    - Reads waypoint coordinates either from a file or predefined list.  
-   - Implements a **hybrid controller** with four behaviors:  
+   - Implements a **hybrid controller** with four behaviors (basically hardcoded **Dynamic Window Approach**):  
      - **Go-to-Goal (GTG):** Moves directly toward the current waypoint using adaptive gains.  
      - **Avoid Obstacle (AO):** Diverts the robot from obstacles using perpendicular repulsion vectors.  
      - **Wall-Following Clockwise (FW_C):** Circumnavigates obstacles when direct avoidance is blocked.  
